@@ -1,9 +1,6 @@
-a=[]
 b=int(input("Enter no of elements="))
 
-for i in range(0,b):
-    t=int(input("Enter in list="))
-    a.append(t)
+a=[int (i) for i in input("enter elements of list").strip().split()]
 
 mini=a[0]
 smin=0
